@@ -4,7 +4,7 @@ const Index = () => {
   return (
     <Container maxW="container.xl" p={0}>
       {/* Navigation Bar */}
-      <Box as="nav" bg="gray.800" color="white" py={4}>
+      <Box as="nav" bg="#004E7C" color="white" py={4}>
         <Flex justify="space-between" align="center" maxW="container.xl" mx="auto" px={4}>
           <Heading as="h1" size="lg">Financial Times</Heading>
           <HStack spacing={8}>
@@ -19,7 +19,7 @@ const Index = () => {
       </Box>
 
       {/* Main Headline Section */}
-      <Box bg="gray.100" py={10}>
+      <Box bg="#F3F3F3" py={10}>
         <Container maxW="container.md">
           <Heading as="h2" size="2xl" mb={4}>Main Headline: Financial Times Inspired Design</Heading>
           <Text fontSize="lg">This is a sample headline section similar to the Financial Times. It captures the most important news of the day.</Text>
@@ -27,7 +27,7 @@ const Index = () => {
       </Box>
 
       {/* Featured Articles Section */}
-      <Box py={10}>
+      <Box bg="#FFFFFF" py={10}>
         <Container maxW="container.md">
           <Heading as="h3" size="lg" mb={6}>Featured Articles</Heading>
           <VStack spacing={8} align="stretch">
@@ -48,7 +48,7 @@ const Index = () => {
       </Box>
 
       {/* Footer */}
-      <Box as="footer" bg="gray.800" color="white" py={10}>
+      <Box as="footer" bg="#004E7C" color="white" py={10}>
         <Container maxW="container.md">
           <Flex justify="space-between" align="center" mb={4}>
             <Heading as="h1" size="lg">Financial Times</Heading>
